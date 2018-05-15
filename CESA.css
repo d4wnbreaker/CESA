@@ -1,0 +1,45 @@
+body{
+        width: available;
+        height: available;
+    }
+
+    .leftpane {
+        width: 25%;
+        float: left;
+        min-height: 1045px;
+        display: table-row;
+    }
+
+    .profile {
+        height: 20%;
+        background-color: #FC9F5B;
+    }
+
+    .social {
+        height: 20%;
+        background-color: #FBD1A2;
+    }
+
+    .links {
+        height: 60%;
+        background-color: #ECE4B7;
+    }
+
+    .middlepane {
+        width: 50%;
+        height: available;
+        min-height: 1045px;
+        float: left;
+        background-color: #7DCFB6;
+        border-collapse: collapse;
+    }
+
+    .rightpane {
+        width: available;
+        height: available;
+        min-height: 1045px;
+        position: relative;
+        margin-left: 75%;
+        background-color: #33CA7F;
+        border-collapse: collapse;
+    }
